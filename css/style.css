@@ -1,0 +1,193 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	background: #256F56;
+
+}
+
+
+
+/*-------------linetop------------------*/
+
+
+
+
+
+
+
+
+/*--------------heading-------------------------*/
+
+@font-face{
+	src: url("Moon Light.otf");
+	font-family:"Moon Light" ;
+}
+
+@font-face{
+	src: url("Moon Bold.otf");
+	font-family:"Moon Bold" ;
+}
+
+
+
+.heading{
+	width:100vw;
+	/*background: red;*/
+	/*height:20vh;*/
+	font-family:"Moon Light" ;
+	text-align: center;
+	/*border-bottom: 2px solid #e9ece5;*/
+}
+
+.heading h1{
+	/*background: green;*/
+	display: inline-block;
+	margin-top: 2vh;
+	color: white;
+	/*background: black;*/
+	position:relative;
+	font-size: 7rem;
+	/*color:green;*/
+	padding-top: .2rem;
+	/*padding-bottom: .2rem;*/
+	/*padding-left: 2rem;*/
+	letter-spacing: 1vw;
+	/*z-index: 1;*/
+}
+
+
+
+
+
+
+
+
+
+
+.hang{
+	font-family:"Moon Light";
+	font-size: 5vw;
+	padding: 1vh;
+	border: 8px solid #5EC99B;
+	color:#CAD47D;
+
+}
+
+.hang::before{
+	content: "#";
+	color:#5EC99B;
+	font-family:"Moon Bold";
+}
+
+
+
+/*----------------main-----------------------*/
+
+.main{
+	width:100vw;
+	height: 50vh;
+	margin-top: 10vh;
+	/*z-index: 100;*/
+	position:relative;
+}
+
+
+/*------------------hanger-------------------*/
+
+.hanger{
+	width:50vw;
+	height: 50vh;
+	float:left;
+	/*background: blue;*/
+	/*z-index: 100;*/
+	/*margin: 0 auto;*/
+}
+
+.hanger h1{
+	/*position: relative;*/
+	font-family:"Moon Bold";
+	width: 60%;
+	color:#5EC99B;
+	text-align: center;
+	/*display: inline-block;*/
+	font-size: 2vw;
+	margin: 0 auto;
+	padding-top: 9vh;
+	/*background: green;*/
+	
+}
+
+.hanger h2{
+	/*position: relative;*/
+	font-family:"Moon Bold";
+	width: 60%;
+	color: #CAD47D;
+	text-align: center;
+	/*display: inline-block;*/
+	font-size: 2vw;
+	margin: 0 auto;
+	padding-top: 9vh;
+	/*background: green;*/
+	
+}
+
+/*------------------theword-------------------*/
+
+.theword{
+	width:50vw;
+	height: 50vh;
+	float:left;
+	font-family:"Moon Bold" ;
+	/*background: orange;*/
+	font-size: 2vw;
+	text-align: center;
+	padding-top: 10vh;
+}
+
+.theword h1{
+	display:inline-block;
+	/*width:80%;*/
+	background: rgba(255,255,255,0.1);
+	margin: 0 auto;
+	border-radius: 5px;
+	text-align: center;
+	padding: 1vw 4vw;
+	color: #5EC99B;
+	letter-spacing: 1.5vw;
+	/*border-radius: 50px;*/
+	/*background: green;*/
+}
+
+/*-------------------keyboard---------------------*/
+
+.keyboard{
+	width:80vw;
+	margin: 0 auto;
+	/*height:20vh;*/
+	text-align: center;
+	line-height: 6vw;
+	/*background: gray;*/
+}
+
+.keyboard button{
+	width:5vw;
+	color: #e9ece5;
+	font-size: 3vw;
+	/*margin-right: 1vw;*/
+	/*background: rgba(200,200,200,0.2);*/
+	border: 2px solid rgba(34,34,34,0);
+	/*text-decoration: underline;*/
+	font-family:"Moon Bold" ;
+	height: 5rem;
+	transition: color 1s;
+	/*border-radius: 50px;*/
+}
+
+.keyboard button:hover{
+	color: #b3c2bf;
+}
+
+
+
+
