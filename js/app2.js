@@ -82,6 +82,8 @@ function again(){
 			display();
 			$("button").css("color", "#e9ece5");
 			$("button").prop("disabled", false);
+			numberOfMisses = 0;
+	
 }
 
 function isWon(){
